@@ -15,11 +15,11 @@ public class Controller : MonoBehaviour
     [YarnCommand("moveCircle")]
     public IEnumerator MoveCircle(GameObject pos)
     {
-        Vector3 startpos = transform.position;
-        for (int i = 0; i < 10; i++)
+        Vector3 startPos = transform.position;
+        for (int i = 0; i < 50; i++)
         {
-            transform.position = Vector3.Lerp(startpos, pos.transform.position, 0.1f);
-            yield return new WaitForSeconds(1f);
+            transform.position += Vector3.Lerp(startPos, pos.transform.position, 0.02f);
+            yield return new WaitForSeconds(0.1f);
         }
     }
 }
