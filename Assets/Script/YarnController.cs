@@ -2,7 +2,7 @@ using Yarn.Unity;
 using UnityEngine;
 using System.Collections;
 
-public class Controller : MonoBehaviour
+public class YarnController : MonoBehaviour
 {
     [SerializeField]
     private DialogueRunner dialogueRunner;
