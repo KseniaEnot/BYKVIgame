@@ -10,7 +10,7 @@ public class MiniGame : MonoBehaviour
     protected int gameScore;
     protected int difficulte;
     protected bool isGameStatr;
-    protected gameParams par;
+    public gameParams par { get; protected set; }
     private void Awake()
     {
         gameScore = 0;
@@ -28,17 +28,18 @@ public class MiniGame : MonoBehaviour
     {
         GameControllerScript.instance.upChar(par, gameScore);
         GameControllerScript.instance.onPlayerMove();
+        GameControllerScript.instance.getUIgameEnd.Invoke(par);
         isGameStatr = false;
         GameEnd.Invoke();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        GameControllerScript.instance.getInteractButtonUI.Invoke(true, nameInteraction, this);
+        GameControllerScript.instance.getInteractButtonUI.Invoke(true, this, nameInteraction);
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        GameControllerScript.instance.getInteractButtonUI.Invoke(false, nameInteraction, this);
+        GameControllerScript.instance.getInteractButtonUI.Invoke(false, this, nameInteraction);
     }
 }
