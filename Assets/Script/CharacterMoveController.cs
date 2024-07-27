@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterController : MonoBehaviour
+public class CharacterMoveController : MonoBehaviour
 {
     public bool canMove; //make private?
     private Vector2 moveDir;
