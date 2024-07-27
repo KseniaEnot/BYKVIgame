@@ -8,7 +8,8 @@ public enum gameParams
 {
     Clean = 0,
     Popularit = 1,
-    Rlevance = 2
+    Rlevance = 2,
+    Money = 3
 }
 
 public class GameControllerScript : MonoBehaviour
@@ -45,7 +46,7 @@ public class GameControllerScript : MonoBehaviour
     public void upChar(gameParams index, int score)
     {
         charGame[((int)index)] += score;
-        Debug.Log(index + " " + charGame[((int)index)]);
+        uIController.setTextScore(index, charGame[((int)index)]);
     }
     public void spawnDebug()
     {

@@ -1,79 +1,79 @@
 fileFormatVersion: 2
-guid: 040456c2d8c23e5498b1ecec1ff7d005
+guid: 2a12838b4c967f44393195999afbecfd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1193820911090328509
-    second: DinoSprites - doux_0
+      213: 6257046027232108077
+    second: DinoSprites - mort_0
   - first:
-      213: -4782104476085066544
-    second: DinoSprites - doux_1
+      213: -7125036645668570733
+    second: DinoSprites - mort_1
   - first:
-      213: 5457486430018742753
-    second: DinoSprites - doux_2
+      213: -8286560987708172065
+    second: DinoSprites - mort_2
   - first:
-      213: -6998530912514391803
-    second: DinoSprites - doux_3
+      213: -1100318611340786188
+    second: DinoSprites - mort_3
   - first:
-      213: 3980471565588570874
-    second: DinoSprites - doux_4
+      213: -9090256856807665732
+    second: DinoSprites - mort_4
   - first:
-      213: -1273391385274323691
-    second: DinoSprites - doux_5
+      213: -5875646046826985496
+    second: DinoSprites - mort_5
   - first:
-      213: -4508140695509116639
-    second: DinoSprites - doux_6
+      213: -4757027935454551482
+    second: DinoSprites - mort_6
   - first:
-      213: 5167926156991472794
-    second: DinoSprites - doux_7
+      213: 747901297976196677
+    second: DinoSprites - mort_7
   - first:
-      213: -5589726636969511265
-    second: DinoSprites - doux_8
+      213: -8799713894660558535
+    second: DinoSprites - mort_8
   - first:
-      213: 6843668749568235812
-    second: DinoSprites - doux_9
+      213: -3936616637813362086
+    second: DinoSprites - mort_9
   - first:
-      213: -779620069307929898
-    second: DinoSprites - doux_10
+      213: 9125498157706366390
+    second: DinoSprites - mort_10
   - first:
-      213: -4973719480991979858
-    second: DinoSprites - doux_11
+      213: 5812355154914232366
+    second: DinoSprites - mort_11
   - first:
-      213: -856149755822829703
-    second: DinoSprites - doux_12
+      213: 3558796315206722773
+    second: DinoSprites - mort_12
   - first:
-      213: 9005231359350743733
-    second: DinoSprites - doux_13
+      213: -2678000645872940547
+    second: DinoSprites - mort_13
   - first:
-      213: -3062889640021937877
-    second: DinoSprites - doux_14
+      213: -230669603557627360
+    second: DinoSprites - mort_14
   - first:
-      213: 2344094080979329109
-    second: DinoSprites - doux_15
+      213: -2519562820075941236
+    second: DinoSprites - mort_15
   - first:
-      213: 6187166469564620892
-    second: DinoSprites - doux_16
+      213: -7045305757555629346
+    second: DinoSprites - mort_16
   - first:
-      213: 5790736894352482622
-    second: DinoSprites - doux_17
+      213: 4816921100374274480
+    second: DinoSprites - mort_17
   - first:
-      213: 1017339619195510989
-    second: DinoSprites - doux_18
+      213: 288819550490885534
+    second: DinoSprites - mort_18
   - first:
-      213: 2435977642620248713
-    second: DinoSprites - doux_19
+      213: 8201957625968324575
+    second: DinoSprites - mort_19
   - first:
-      213: -2169900482024534249
-    second: DinoSprites - doux_20
+      213: 7258251685931216535
+    second: DinoSprites - mort_20
   - first:
-      213: 5122917098507624081
-    second: DinoSprites - doux_21
+      213: 7086923684946535517
+    second: DinoSprites - mort_21
   - first:
-      213: 3715301444612607779
-    second: DinoSprites - doux_22
+      213: 1133495388219020444
+    second: DinoSprites - mort_22
   - first:
-      213: -1725305482119995535
-    second: DinoSprites - doux_23
+      213: -756122797066178725
+    second: DinoSprites - mort_23
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -142,7 +142,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 1
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -182,7 +182,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DinoSprites - doux_0
+      name: DinoSprites - mort_0
       rect:
         serializedVersion: 2
         x: 0
@@ -196,14 +196,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 34c170dd432be6fe0800000000000000
-      internalID: -1193820911090328509
+      spriteID: d2e5074e53e75d650800000000000000
+      internalID: 6257046027232108077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_1
+      name: DinoSprites - mort_1
       rect:
         serializedVersion: 2
         x: 24
@@ -217,14 +217,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d4e420d05d82adb0800000000000000
-      internalID: -4782104476085066544
+      spriteID: 399b84bbbe8ce1d90800000000000000
+      internalID: -7125036645668570733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_2
+      name: DinoSprites - mort_2
       rect:
         serializedVersion: 2
         x: 48
@@ -238,14 +238,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e928cb3ef2ecbb40800000000000000
-      internalID: 5457486430018742753
+      spriteID: fd85b0e8fa8300d80800000000000000
+      internalID: -8286560987708172065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_3
+      name: DinoSprites - mort_3
       rect:
         serializedVersion: 2
         x: 72
@@ -259,14 +259,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5014df1073930ee90800000000000000
-      internalID: -6998530912514391803
+      spriteID: 4f5084f7d02eab0f0800000000000000
+      internalID: -1100318611340786188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_4
+      name: DinoSprites - mort_4
       rect:
         serializedVersion: 2
         x: 96
@@ -280,14 +280,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af22379acc97d3730800000000000000
-      internalID: 3980471565588570874
+      spriteID: cbf8bec0d8be8d180800000000000000
+      internalID: -9090256856807665732
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_5
+      name: DinoSprites - mort_5
       rect:
         serializedVersion: 2
         x: 120
@@ -301,14 +301,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51d6ea42841045ee0800000000000000
-      internalID: -1273391385274323691
+      spriteID: 8e703f80d03857ea0800000000000000
+      internalID: -5875646046826985496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_6
+      name: DinoSprites - mort_6
       rect:
         serializedVersion: 2
         x: 144
@@ -322,14 +322,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 12952be2ceddf61c0800000000000000
-      internalID: -4508140695509116639
+      spriteID: 6422f98eb44abfdb0800000000000000
+      internalID: -4757027935454551482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_7
+      name: DinoSprites - mort_7
       rect:
         serializedVersion: 2
         x: 168
@@ -343,14 +343,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a942dec757928b740800000000000000
-      internalID: 5167926156991472794
+      spriteID: 54ebce89444116a00800000000000000
+      internalID: 747901297976196677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_8
+      name: DinoSprites - mort_8
       rect:
         serializedVersion: 2
         x: 192
@@ -364,14 +364,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f96b4e34d3d4d62b0800000000000000
-      internalID: -5589726636969511265
+      spriteID: 93130bfe5d221e580800000000000000
+      internalID: -8799713894660558535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_9
+      name: DinoSprites - mort_9
       rect:
         serializedVersion: 2
         x: 216
@@ -385,14 +385,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 429d47ae77899fe50800000000000000
-      internalID: 6843668749568235812
+      spriteID: a52fd3666045e59c0800000000000000
+      internalID: -3936616637813362086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_10
+      name: DinoSprites - mort_10
       rect:
         serializedVersion: 2
         x: 240
@@ -406,14 +406,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6daa2257dab3e25f0800000000000000
-      internalID: -779620069307929898
+      spriteID: 6bdc198b93844ae70800000000000000
+      internalID: 9125498157706366390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_11
+      name: DinoSprites - mort_11
       rect:
         serializedVersion: 2
         x: 264
@@ -427,14 +427,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ea66803eb7cc9fab0800000000000000
-      internalID: -4973719480991979858
+      spriteID: e28c21dd732a9a050800000000000000
+      internalID: 5812355154914232366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_12
+      name: DinoSprites - mort_12
       rect:
         serializedVersion: 2
         x: 288
@@ -448,14 +448,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97f84a945585e14f0800000000000000
-      internalID: -856149755822829703
+      spriteID: 5d4add3b462636130800000000000000
+      internalID: 3558796315206722773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_13
+      name: DinoSprites - mort_13
       rect:
         serializedVersion: 2
         x: 312
@@ -469,14 +469,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b22f46a53209fc70800000000000000
-      internalID: 9005231359350743733
+      spriteID: df90a7ae994d5dad0800000000000000
+      internalID: -2678000645872940547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_14
+      name: DinoSprites - mort_14
       rect:
         serializedVersion: 2
         x: 336
@@ -490,14 +490,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b21b44ca91e6e75d0800000000000000
-      internalID: -3062889640021937877
+      spriteID: 02aa77bb73f7cccf0800000000000000
+      internalID: -230669603557627360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_15
+      name: DinoSprites - mort_15
       rect:
         serializedVersion: 2
         x: 360
@@ -511,14 +511,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5506ed8a525e78020800000000000000
-      internalID: 2344094080979329109
+      spriteID: c829710e6f6b80dd0800000000000000
+      internalID: -2519562820075941236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_16
+      name: DinoSprites - mort_16
       rect:
         serializedVersion: 2
         x: 384
@@ -532,14 +532,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c506b908f1b3dd550800000000000000
-      internalID: 6187166469564620892
+      spriteID: ed2e1eabdbb0a3e90800000000000000
+      internalID: -7045305757555629346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_17
+      name: DinoSprites - mort_17
       rect:
         serializedVersion: 2
         x: 408
@@ -553,14 +553,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e31e0a75684dc5050800000000000000
-      internalID: 5790736894352482622
+      spriteID: 0b174ea383429d240800000000000000
+      internalID: 4816921100374274480
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_18
+      name: DinoSprites - mort_18
       rect:
         serializedVersion: 2
         x: 432
@@ -574,14 +574,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc0641a5ef05e1e00800000000000000
-      internalID: 1017339619195510989
+      spriteID: e9d7237d9d7120400800000000000000
+      internalID: 288819550490885534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_19
+      name: DinoSprites - mort_19
       rect:
         serializedVersion: 2
         x: 456
@@ -595,14 +595,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9826c2572c45ec120800000000000000
-      internalID: 2435977642620248713
+      spriteID: fdfe5a6410533d170800000000000000
+      internalID: 8201957625968324575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_20
+      name: DinoSprites - mort_20
       rect:
         serializedVersion: 2
         x: 480
@@ -616,14 +616,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71f8afa1207f2e1e0800000000000000
-      internalID: -2169900482024534249
+      spriteID: 79e6f46d37d7ab460800000000000000
+      internalID: 7258251685931216535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_21
+      name: DinoSprites - mort_21
       rect:
         serializedVersion: 2
         x: 504
@@ -637,14 +637,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 19e525e65f1481740800000000000000
-      internalID: 5122917098507624081
+      spriteID: d546a871b8fc95260800000000000000
+      internalID: 7086923684946535517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_22
+      name: DinoSprites - mort_22
       rect:
         serializedVersion: 2
         x: 528
@@ -658,14 +658,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32f41a7baf66f8330800000000000000
-      internalID: 3715301444612607779
+      spriteID: c949651dc0cfabf00800000000000000
+      internalID: 1133495388219020444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DinoSprites - doux_23
+      name: DinoSprites - mort_23
       rect:
         serializedVersion: 2
         x: 552
@@ -679,8 +679,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17f14391ecb7e08e0800000000000000
-      internalID: -1725305482119995535
+      spriteID: b5fab4a7256b185f0800000000000000
+      internalID: -756122797066178725
       vertices: []
       indices: 
       edges: []
@@ -688,7 +688,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 40712ee9f98c1fb4f8ff858668cf53cc
+    spriteID: a08840ff402f997458b50d5d76194223
     internalID: 0
     vertices: []
     indices: 
@@ -696,30 +696,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DinoSprites - doux_0: -1193820911090328509
-      DinoSprites - doux_1: -4782104476085066544
-      DinoSprites - doux_10: -779620069307929898
-      DinoSprites - doux_11: -4973719480991979858
-      DinoSprites - doux_12: -856149755822829703
-      DinoSprites - doux_13: 9005231359350743733
-      DinoSprites - doux_14: -3062889640021937877
-      DinoSprites - doux_15: 2344094080979329109
-      DinoSprites - doux_16: 6187166469564620892
-      DinoSprites - doux_17: 5790736894352482622
-      DinoSprites - doux_18: 1017339619195510989
-      DinoSprites - doux_19: 2435977642620248713
-      DinoSprites - doux_2: 5457486430018742753
-      DinoSprites - doux_20: -2169900482024534249
-      DinoSprites - doux_21: 5122917098507624081
-      DinoSprites - doux_22: 3715301444612607779
-      DinoSprites - doux_23: -1725305482119995535
-      DinoSprites - doux_3: -6998530912514391803
-      DinoSprites - doux_4: 3980471565588570874
-      DinoSprites - doux_5: -1273391385274323691
-      DinoSprites - doux_6: -4508140695509116639
-      DinoSprites - doux_7: 5167926156991472794
-      DinoSprites - doux_8: -5589726636969511265
-      DinoSprites - doux_9: 6843668749568235812
+      DinoSprites - mort_0: 6257046027232108077
+      DinoSprites - mort_1: -7125036645668570733
+      DinoSprites - mort_10: 9125498157706366390
+      DinoSprites - mort_11: 5812355154914232366
+      DinoSprites - mort_12: 3558796315206722773
+      DinoSprites - mort_13: -2678000645872940547
+      DinoSprites - mort_14: -230669603557627360
+      DinoSprites - mort_15: -2519562820075941236
+      DinoSprites - mort_16: -7045305757555629346
+      DinoSprites - mort_17: 4816921100374274480
+      DinoSprites - mort_18: 288819550490885534
+      DinoSprites - mort_19: 8201957625968324575
+      DinoSprites - mort_2: -8286560987708172065
+      DinoSprites - mort_20: 7258251685931216535
+      DinoSprites - mort_21: 7086923684946535517
+      DinoSprites - mort_22: 1133495388219020444
+      DinoSprites - mort_23: -756122797066178725
+      DinoSprites - mort_3: -1100318611340786188
+      DinoSprites - mort_4: -9090256856807665732
+      DinoSprites - mort_5: -5875646046826985496
+      DinoSprites - mort_6: -4757027935454551482
+      DinoSprites - mort_7: 747901297976196677
+      DinoSprites - mort_8: -8799713894660558535
+      DinoSprites - mort_9: -3936616637813362086
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

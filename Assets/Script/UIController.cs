@@ -14,6 +14,9 @@ public class UIController : MonoBehaviour
     [SerializeField]
     [Header("Чистота, популярность, ?актуальность?")]
     private List<GameObject> uiMiniGame;
+    [SerializeField]
+    [Header("Чистота, популярность, ?актуальность?")]
+    private List<TMP_Text> uiTextScore;
 
     private void Awake()
     {
@@ -26,6 +29,11 @@ public class UIController : MonoBehaviour
         if (isActive) buttonButton.onClick.AddListener(() => { game.gameStart(); gameUIstart(game.par, game); });
         else buttonButton.onClick.RemoveListener(() => { game.gameStart(); gameUIstart(game.par, game); });
         buttonText.text = _buttonText;
+    }
+
+    public void setTextScore(gameParams gameIndex, int score)
+    {
+        uiTextScore[(int)gameIndex].text = score.ToString();
     }
 
     public void gameUIstart(gameParams gameIndex, MiniGame game)
