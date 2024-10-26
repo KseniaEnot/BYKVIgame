@@ -1,5 +1,5 @@
-using UnityEngine.Events;
 using System;
+using UnityEngine.Events;
 using UnityEngine;
 
 public class MiniGame : MonoBehaviour
@@ -21,6 +21,7 @@ public class MiniGame : MonoBehaviour
         GameControllerScript.instance.offPlayerMove();
         difficulte = GameControllerScript.instance.difficulte;
         isGameStatr = true;
+        gameScore = 0;
         GameStart.Invoke();
     }
 
@@ -35,11 +36,13 @@ public class MiniGame : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        GameControllerScript.instance.getInteractButtonUI.Invoke(true, this, nameInteraction);
+        if (other.gameObject.tag == "Player")
+            GameControllerScript.instance.getInteractButtonUI.Invoke(true, this, nameInteraction);
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        GameControllerScript.instance.getInteractButtonUI.Invoke(false, this, nameInteraction);
+        if (other.gameObject.tag == "Player")
+            GameControllerScript.instance.getInteractButtonUI.Invoke(false, this, nameInteraction);
     }
 }

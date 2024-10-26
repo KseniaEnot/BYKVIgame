@@ -40,22 +40,16 @@ public class MiniGame_WaterFlowers : MiniGame
         {
             gameScore = 1;
         }
-        else
-        {
-            gameScore = 0;
-        }
         gameEnd();
     }
 
     public override void gameStart()
     {
         base.gameStart();
-        Debug.Log("GameStart");
         wight = wight / difficulte;
         float pos = Random.Range(0, (fullTransform.offsetMax.x * 2 - wight));
         needSliderPosL = pos / (fullTransform.offsetMax.x * 2);
         needSliderPosR = (pos + wight) / (fullTransform.offsetMax.x * 2);
-        Debug.Log("needRange " + needSliderPosL + " " + needSliderPosR);
         slider.value = 0;
         dir = 1;
         fillTransform.offsetMin = new Vector2(pos, fillTransform.offsetMin.y);

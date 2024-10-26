@@ -36,7 +36,7 @@ public class GameControllerScript : MonoBehaviour
             instance = this;
         }
         // init from file? prefs? anythyng????
-        charGame = new List<int>() { 0, 0, 0 };
+        charGame = new List<int>() { 0, 0, 0, 0 }; //ОЧЕНЬ плохая инициализация.
         difficulte = 1;
     }
 
