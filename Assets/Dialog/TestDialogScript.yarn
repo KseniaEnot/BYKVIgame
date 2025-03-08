@@ -7,11 +7,11 @@ p1: Ура!
 p2: Ну работаешь и работаешь, чего бубнить...
     -> Вариант 1
         p1: Ты выбрал вариант 1.
-        <<moveCircle Circle Pos1>>
+        <<moveCircle NPC_Image 2>>
         <<jump Node1>>
     -> Вариант 2
         p2: Ты выбрал вариант 2.
-        <<moveCircle Circle Pos2>>
+        <<moveCircle NPC_Image 1>>
         <<jump Node>>
 ===
 title: Node
@@ -19,7 +19,6 @@ position: 198,-3652
 ---
     ->Привет
         p1: Сам ты привет. //тестовый комментарий
-        
 ===
 title: Node1
 position: 228,-3991
