@@ -8,10 +8,12 @@ p2: Ну работаешь и работаешь, чего бубнить...
     -> Вариант 1
         p1: Ты выбрал вариант 1.
         <<moveCircle NPC_Image 2>>
+        <<moveCircle NPC_Image_1 1>>
         <<jump Node1>>
     -> Вариант 2
         p2: Ты выбрал вариант 2.
         <<moveCircle NPC_Image 1>>
+        <<moveCircle NPC_Image_1 2>>
         <<jump Node>>
 ===
 title: Node
